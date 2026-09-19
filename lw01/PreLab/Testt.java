@@ -17,7 +17,7 @@ public class Testt {
                 p.add(new ColourPrint(id, pages));
             }    
         }
-
+        
         for (PrintJob job : p) {
             System.out.println(job.summary());
         }

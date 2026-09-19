@@ -4,9 +4,9 @@ public class MonoPrint extends PrintJob{
         super(id,pages);
     }
     public int calculateCharge() {
-        return getPages() * 500; //
+        return getPages() * 500; 
     }
     public String label() {
-        return "Mono"; //
+        return "Mono"; 
     }
 }
