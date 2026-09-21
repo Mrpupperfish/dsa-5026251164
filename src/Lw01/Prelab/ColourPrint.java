@@ -3,6 +3,7 @@ package Lw01.Prelab;
 public class ColourPrint extends PrintJob{
 
     public ColourPrint(String id, int pages){
+        
         super(id, pages);
     }
 

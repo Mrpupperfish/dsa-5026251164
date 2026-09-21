@@ -4,6 +4,9 @@ public abstract class PrintJob implements Chargeable{
     private String id;
     private int pages;
     public PrintJob(String id, int pages){
+        if(pages <= 0){
+                throw new IllegalArgumentException("Jumlah harus positif"); 
+            }
         this.id = id;
         this.pages = pages;
 
