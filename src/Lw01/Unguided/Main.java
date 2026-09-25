@@ -25,7 +25,6 @@ public class Main {
         }
 
         for(int i = 0; i < x; i++){
-           
             System.out.println(r[i].getId() + " | " + r[i].label() + " | " + r[i].calculateCharge(count[i]));
         }
     }
