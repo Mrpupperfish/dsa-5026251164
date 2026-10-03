@@ -1,4 +1,4 @@
-package Lw03.PreLab;
+// package Lw03.PreLab;
 
 import java.lang.*;
 import java.util.*;
@@ -23,7 +23,7 @@ public class Main {
             }
 
             String lagu = sc1.nextLine();
-
+            
 
             //process
             if(comand.equalsIgnoreCase("add")){
@@ -50,7 +50,7 @@ public class Main {
             System.out.println((i+1) + " : " + nama_lagu.get(i));
         }
 
-        //kasus 1 
+        //kasus 2
         List<String> nama = new ArrayList<>();
         Set <String> answ = new LinkedHashSet<>();
         while(sc2.hasNext()){
