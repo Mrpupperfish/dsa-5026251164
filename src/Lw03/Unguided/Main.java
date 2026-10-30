@@ -14,17 +14,7 @@ public class Main {
         while(sc.hasNext()){
             String perintah = sc.next();
             String code = sc.next();
-
-            // if(perintah.equalsIgnoreCase("CHECK")){
-            //     // System.out.println("aoidha");
-            //     if(m.containsKey(code)){
-            //         System.out.println(code + " : " + m.get(code));
-            //     }
-            //     else{
-            //         System.out.println(code + " : Not Found");
-            //     }
-            //     continue;
-            // }
+            
             if(!perintah.equals("CHECK") ){
                 jumlah = sc.nextInt();
             }
