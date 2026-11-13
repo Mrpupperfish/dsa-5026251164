@@ -1,4 +1,4 @@
-// package Lw05.Prelab;
+package Lw05.Prelab;
 
 import java.util.*;
 import java.io.*;
